@@ -1,6 +1,6 @@
 import React from "react";
 
-function MultiButton() {
+export const MultiButton=()=> {
   function handleClick(number) {
     console.log(`Button ${number} was clicked`);
   }
@@ -13,5 +13,3 @@ function MultiButton() {
     </div>
   );
 }
-
-export default MultiButton;

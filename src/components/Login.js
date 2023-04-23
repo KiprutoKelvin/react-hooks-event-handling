@@ -1,6 +1,6 @@
 import React from "react";
 
-function Login() {
+export const Login =()=> {
   function handleSubmit(event) {
     event.preventDefault();
     console.log("I submit");
@@ -15,4 +15,4 @@ function Login() {
   );
 }
 
-export default Login;
+

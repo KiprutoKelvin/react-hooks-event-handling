@@ -1,6 +1,6 @@
 import React from "react";
 
-function Tickler() {
+export const Tickler =()=> {
   function tickle() {
     console.log("Teehee!");
   }
